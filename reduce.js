@@ -6,7 +6,10 @@
 
 
 // Summing an array of numbers:
-
+const nums = [0, 1, 2, 3, 4]
+// It's good practise to specify the initial accumulator, in this case the integer 10.
+let sum = nums.reduce((acc, curr) => acc + curr, 10);
+console.log(sum)
 
 const teamMembers = [
   {
